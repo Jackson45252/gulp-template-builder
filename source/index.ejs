@@ -1,0 +1,28 @@
+---
+title: index
+layout: ./source/_layouts/layout.ejs
+description: This is for demo!
+itemList:
+  - listItem: one
+  - listItem: two
+  - listItem: three
+css: ['default.css']
+js: ['main.js']
+engine: ejs
+---
+<div class="ui vertical stripe segment">
+  <div class="ui text container">
+    <h2 class="ui header text-red"><%= description %></h2>
+    <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
+    <a class="ui large button">Read More</a>
+    <h4 class="ui horizontal header divider">
+      <a href="#">Case Studies</a>
+    </h4>
+    <h3 class="ui header">List</h3>
+    <ul>
+        <% for(var i=0; i<itemList.length; i++) {%>
+          <li> <%= itemList[i].listItem %></li>
+        <% } %>
+    </ul>
+  </div>
+</div>

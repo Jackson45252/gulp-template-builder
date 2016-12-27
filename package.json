@@ -1,0 +1,24 @@
+{
+  "name": "gulp-template-builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "firstAuthor": "Wcc723,yuyake0084",
+  "secondAuthor": "Jackson <jacksonxu45252@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "ejs": "^2.4.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-ejs": "^2.2.1",
+    "gulp-front-matter": "^1.3.0",
+    "gulp-layout": "0.0.3",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-watch": "^4.3.5",
+    "gulp-webserver": "^0.9.1"
+  }
+}
